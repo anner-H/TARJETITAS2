@@ -1,0 +1,44 @@
+#root{
+    width: 71rem;
+    padding: 2rem;
+    height: auto;
+    border: 3px solid;
+    background-color: rosybrown;
+    margin: auto;
+    margin-top: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fruta{
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 0.2rem;
+    font-size: 5rem;
+    margin: 0.5rem;
+    background-color: darkred;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.activo{
+    transition: 1s linear;
+    font-size:3rem;
+    transition:1s;
+    background-color: darksalmon;
+    color:aliceblue;
+    -webkit-transform: perspective(150px) rotateY(45deg);
+    transform: rotateY(180deg);
+}
+
+
+
+.fruta:hover{
+    background-color: aliceblue;
+    transition:0.8s
+}
